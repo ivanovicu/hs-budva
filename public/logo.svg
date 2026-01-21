@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100">
+  <!-- First cookie (back) -->
+  <ellipse cx="58" cy="38" rx="32" ry="30" fill="#E8C47C"/>
+  <ellipse cx="58" cy="38" rx="28" ry="26" fill="#D4A855"/>
+  <!-- Cookie chips for first cookie -->
+  <circle cx="48" cy="30" r="4" fill="#5D4037"/>
+  <circle cx="65" cy="28" r="3.5" fill="#5D4037"/>
+  <circle cx="55" cy="45" r="4" fill="#5D4037"/>
+  <circle cx="70" cy="42" r="3" fill="#5D4037"/>
+  <circle cx="45" cy="42" r="3" fill="#5D4037"/>
+  <circle cx="60" cy="35" r="2.5" fill="#5D4037"/>
+
+  <!-- Second cookie (front) -->
+  <ellipse cx="62" cy="62" rx="34" ry="32" fill="#F5D998"/>
+  <ellipse cx="62" cy="62" rx="30" ry="28" fill="#E8C47C"/>
+  <!-- Cookie chips for second cookie -->
+  <circle cx="50" cy="55" r="4.5" fill="#6D4C41"/>
+  <circle cx="72" cy="52" r="4" fill="#6D4C41"/>
+  <circle cx="58" cy="70" r="4" fill="#6D4C41"/>
+  <circle cx="75" cy="68" r="3.5" fill="#6D4C41"/>
+  <circle cx="48" cy="72" r="3.5" fill="#6D4C41"/>
+  <circle cx="65" cy="60" r="3" fill="#6D4C41"/>
+  <circle cx="80" cy="58" r="2.5" fill="#6D4C41"/>
+
+  <!-- Subtle highlights -->
+  <ellipse cx="52" cy="56" rx="8" ry="6" fill="#FFF8E7" opacity="0.3"/>
+  <ellipse cx="50" cy="32" rx="6" ry="5" fill="#FFF8E7" opacity="0.3"/>
+</svg>

@@ -1,13 +1,13 @@
 .order-page {
   min-height: calc(100vh - 70px);
   padding: 40px 20px;
-  background: #FFF8DC;
+  background: #FFF8E7;
   font-family: 'Georgia', serif;
 }
 
 .order-page h1 {
   text-align: center;
-  color: #8B4513;
+  color: #3D7A8C;
   font-size: 2.5rem;
   margin-bottom: 40px;
 }
@@ -18,7 +18,7 @@
 }
 
 .empty-cart h1 {
-  color: #8B4513;
+  color: #3D7A8C;
   margin-bottom: 15px;
 }
 
@@ -30,17 +30,18 @@
 
 .continue-shopping {
   display: inline-block;
-  background: #D2691E;
-  color: white;
+  background: #F5C842;
+  color: #3D7A8C;
   padding: 15px 40px;
   text-decoration: none;
   border-radius: 30px;
   font-size: 1.1rem;
+  font-weight: bold;
   transition: background 0.3s ease;
 }
 
 .continue-shopping:hover {
-  background: #8B4513;
+  background: #E5B832;
 }
 
 .cart-container {
@@ -88,7 +89,7 @@
 }
 
 .item-details h3 {
-  color: #8B4513;
+  color: #3D7A8C;
   font-size: 1.1rem;
   margin-bottom: 5px;
 }
@@ -107,9 +108,9 @@
 .qty-btn {
   width: 32px;
   height: 32px;
-  border: 1px solid #D2691E;
+  border: 1px solid #5BA3B8;
   background: white;
-  color: #D2691E;
+  color: #5BA3B8;
   border-radius: 50%;
   font-size: 1.2rem;
   cursor: pointer;
@@ -117,7 +118,7 @@
 }
 
 .qty-btn:hover {
-  background: #D2691E;
+  background: #5BA3B8;
   color: white;
 }
 
@@ -129,7 +130,7 @@
 
 .item-total {
   font-weight: bold;
-  color: #8B4513;
+  color: #3D7A8C;
   min-width: 80px;
   text-align: right;
 }
@@ -159,10 +160,10 @@
 }
 
 .cart-summary h2 {
-  color: #8B4513;
+  color: #3D7A8C;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 2px solid #FFF8DC;
+  border-bottom: 2px solid #FFF8E7;
 }
 
 .summary-row {
@@ -175,27 +176,28 @@
 .summary-row.total {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #8B4513;
+  color: #3D7A8C;
   padding-top: 15px;
-  border-top: 2px solid #FFF8DC;
+  border-top: 2px solid #FFF8E7;
   margin-top: 15px;
 }
 
 .checkout-btn {
   width: 100%;
   padding: 15px;
-  background: #D2691E;
-  color: white;
+  background: #F5C842;
+  color: #3D7A8C;
   border: none;
   border-radius: 30px;
   font-size: 1.1rem;
+  font-weight: bold;
   cursor: pointer;
   transition: background 0.3s ease;
   margin-top: 20px;
 }
 
 .checkout-btn:hover {
-  background: #8B4513;
+  background: #E5B832;
 }
 
 .clear-cart-btn {
@@ -220,7 +222,7 @@
   display: block;
   text-align: center;
   margin-top: 20px;
-  color: #D2691E;
+  color: #5BA3B8;
   text-decoration: none;
 }
 

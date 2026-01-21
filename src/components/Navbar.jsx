@@ -29,6 +29,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
+        <img src="/logo.svg" alt="Logo" className="navbar-logo" />
         Homemade Sweets - Budva
       </Link>
       <div className="navbar-links">
