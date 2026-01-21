@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
         <img src="/logo.svg" alt="Logo" className="navbar-logo" />
-        Homemade Sweets - Budva
+        <span className="brand-text">Homemade Sweets - Budva</span>
       </Link>
       <div className="navbar-links">
         <a href="#about-cookies" onClick={handleAboutClick}>
