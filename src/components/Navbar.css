@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 15px;
+  padding: 12px 50px 12px 15px;
   background: linear-gradient(135deg, #3D7A8C 0%, #5BA3B8 100%);
   color: white;
   position: sticky;
@@ -51,9 +51,12 @@
 }
 
 .cart-icon {
-  position: relative;
+  position: fixed;
+  top: 12px;
+  right: 15px;
   display: flex;
   align-items: center;
+  z-index: 1001;
 }
 
 .cart-bubble {
@@ -75,7 +78,12 @@
 /* Tablet and up */
 @media (min-width: 576px) {
   .navbar {
-    padding: 15px 20px;
+    padding: 15px 55px 15px 20px;
+  }
+
+  .cart-icon {
+    top: 15px;
+    right: 20px;
   }
 
   .navbar-brand {
@@ -105,7 +113,12 @@
 /* Desktop */
 @media (min-width: 768px) {
   .navbar {
-    padding: 15px 30px;
+    padding: 15px 60px 15px 30px;
+  }
+
+  .cart-icon {
+    top: 15px;
+    right: 30px;
   }
 
   .navbar-brand {
