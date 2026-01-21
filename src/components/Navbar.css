@@ -59,6 +59,7 @@
   z-index: 1001;
 }
 
+
 .cart-bubble {
   position: absolute;
   top: -8px;
@@ -113,12 +114,14 @@
 /* Desktop */
 @media (min-width: 768px) {
   .navbar {
-    padding: 15px 60px 15px 30px;
+    padding: 15px 30px;
   }
 
   .cart-icon {
-    top: 15px;
-    right: 30px;
+    position: relative;
+    top: auto;
+    right: auto;
+    z-index: auto;
   }
 
   .navbar-brand {
